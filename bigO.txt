@@ -1,0 +1,23 @@
+# Harvard CS50 - Asymptotic Notation (video)
+Traversing a string from front to end takes N time
+    N meaning how many characters the string is 
+    So Big O is O(n)
+Binary Search runs in O(log(n))
+    cuts an array in half every time until it finds the value
+
+Linear Search runs in O(n)
+
+# Big O Notations (general quick tutorial) (video)
+    O(1) code that executes no MATTER how big an array is
+
+    O(N) time to complete is directly proportionate to size of data
+        Linear Search
+    
+    O(N^2)
+        Bubble Sort 
+        Nested Iterations
+
+    O(log N)
+        Data is deceased roughly by 50% each time through alg
+        https://www.bigocheatsheet.com/
+        
