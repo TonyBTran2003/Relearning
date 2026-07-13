@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <string.h>
 #include <stdlib.h>
+
 typedef struct {
     int *data;      // pointer to the raw array on the heap
     int size;       // number of items currently stored
@@ -16,8 +17,15 @@ int choose_capacity(int requested) {
     while (capacity < requested) {
         capacity *= 2;
     }
-
     return capacity;
+}
+
+int size(Vector *v){
+    return v->size;
+}
+
+int capacity(Vector *v){
+    return v->capacity;
 }
 
 
