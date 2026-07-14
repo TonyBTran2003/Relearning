@@ -46,6 +46,10 @@ int capacity(Vector *v){
 }
 
 int at(Vector *v, int index) {
+    return v->data[index];
+}
+
+void push(Vector *v, int value) {
     
 }
 // Creating my own vector class with all functions in C
